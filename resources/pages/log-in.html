@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Log In</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="shortcut icon" href="/images/rose.png" type="image/x-icon" />
+    <script src="/scripts/log-in.js"></script>
+  </head>
+  <body>
+    <header class="nav-container">
+      <div class="heading">Flower Catalog</div>
+      <form action="/search">
+        <input
+          type="search"
+          placeholder="Search for flowers..."
+          id="searched-flower"
+          name="searched-flower" />
+      </form>
+    </header>
+
+    <main>
+      <form id="log-in">
+        <header class="heading">Log In</header>
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" class="text-input" required />
+        </div>
+
+        <div>
+          <input type="submit" id="submit-btn" />
+          <input type="reset" id="reset-btn" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

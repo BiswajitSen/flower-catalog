@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Guest Book</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <script src="/scripts/guest-book.js"></script>
+  <body>
+    <div id="root">
+      <header class="nav-bar">
+        <nav class="back-btn"><a href="/pages/index.html">&lt;&lt; Back</a></nav>
+        <div class="heading">Guest Book</div>
+      </header>
+      <main id="page">
+        <form class="flower-comments">
+          <header class="comment-header">Leave a comment</header>
+
+          <div>
+            <label for="comment">Comment</label>
+            <input type="text" name="comment" id="comment" class="text-input" required />
+          </div>
+
+          <div>
+            <input type="submit" id="submit-btn" />
+            <input type="reset" id="reset-btn" />
+          </div>
+        </form>
+
+        <section class="comments">
+          <header class="comments-heading">Comments</header>
+          <ul class="comment-log"></ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

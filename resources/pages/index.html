@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Flower-Catalog</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="shortcut icon" href="/images/rose.png" type="image/x-icon" />
+    <script src="/scripts/script.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      <header class="nav-container">
+        <div class="heading">Flower Catalog</div>
+        <form action="/search">
+          <input
+            type="search"
+            placeholder="Search for flowers..."
+            id="searched-flower"
+            name="searched-flower" />
+        </form>
+      </header>
+      <main id="page">
+        <ul class="flower-catalog">
+          <img src="/images/freshorigins.jpg" />
+          <ul class="flowers">
+            <li><a href="/pages/abeliophyllum.html" class="flower">ABELIOPHYLLUM</a></li>
+            <li><a href="/pages/ageratum.html" class="flower">AGERATUM</a></li>
+            <li><a href="/pages/african.html" class="flower">AFRICAN</a></li>
+            <li><a href="/pages/arctotis.html" class="flower">ARCTOTIS</a></li>
+            <li><a href="/pages/agapanthus.html" class="flower">AGAPANTHUS</a></li>
+            <li><a href="/pages/amaryllis.html" class="flower">AMARYLLIS</a></li>
+            <img src="/images/jar.gif" id="jar-image" />
+            <a href="/pages/guest-book.html" id="guest-book">Guest Book</a>
+          </ul>
+        </ul>
+      </main>
+      <footer class="account-section">
+        <a href="/pages/log-in.html"
+          ><input type="button" value="log-in" id="log-in-btn"
+        /></a>
+        <a href="/pages/logout.html"><input type="button" value="log-out" /></a>
+      </footer>
+    </div>
+  </body>
+</html>
